@@ -9,7 +9,9 @@ a {
 }
 
 .container {
-  width: 100%;
+  margin: 0 auto;
+  padding: 2% 0;
+  width: 90%;
 }
 body {
   color: white;
@@ -27,15 +29,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
-  padding: 10px 0;
 }
 .nav-right-buttons {
   display: none;
 }
 
 .nav-left-buttons {
-  margin: 0 3%;
   font-weight: 700;
 }
 
@@ -71,14 +70,12 @@ body {
 
 .headline {
   z-index: 20;
-  margin: 0 3%;
   width: 80%;
   font-weight: 700;
   font-size: 36px;
 }
 .description {
   z-index: 20;
-  margin: 0 3%;
   font-weight: 700;
   font-size: 18px;
 }
@@ -90,7 +87,6 @@ body {
   z-index: 20;
   transition-duration: 1s;
   transition-property: color background-color;
-  margin: 0 3%;
   border: 3px solid white;
   width: 150px;
   height: 40px;
@@ -109,7 +105,6 @@ body {
 
 .about .container {
   box-sizing: border-box;
-  margin: auto 3%;
   padding: 5% 0;
 }
 .specialists {
@@ -246,7 +241,6 @@ body {
     display: contents;
   }
   .container {
-    margin: 0 auto;
     width: 85%;
   }
   .nav-bar .container {
@@ -384,7 +378,7 @@ body {
     column-gap: 50px;
     row-gap: 50px;
     margin: auto;
-    width: 100%;
+    width: 80%;
   }
 
   .box {
