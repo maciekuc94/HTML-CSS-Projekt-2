@@ -107,6 +107,9 @@ body {
   box-sizing: border-box;
   padding: 5% 0;
 }
+.departement {
+  align-items: center;
+}
 .specialists {
   margin: 10% auto;
   text-align: center;
@@ -119,8 +122,8 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: #c4c4c4;
-  width: 150px;
-  height: 150px;
+  aspect-ratio: 1/1;
+  width: 40%;
 }
 .person {
   color: #000000;
@@ -282,8 +285,8 @@ body {
     margin: auto;
     background-repeat: no-repeat;
     background-color: #c4c4c4;
-    width: 200px;
-    height: 200px;
+    aspect-ratio: 1/1;
+    width: 18%;
   }
 
   .picture-one {
