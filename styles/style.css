@@ -88,8 +88,8 @@ body {
   transition-duration: 1s;
   transition-property: color background-color;
   border: 3px solid white;
+  padding: 20px;
   width: 150px;
-  height: 40px;
   font-weight: 700;
   font-size: 18px;
 }
@@ -134,21 +134,10 @@ body {
   font-size: 18px;
 }
 
-.p-one,
-.p-two {
+.paragraph {
   padding: 15px 0;
   font-weight: 400;
   font-size: 18px;
-}
-
-.p-one {
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-.p-two {
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .offer {
@@ -267,7 +256,7 @@ body {
   }
 
   .offer-button {
-    height: 50px;
+    padding: 20px;
   }
 
   .about .container {
@@ -301,11 +290,6 @@ body {
   }
   .departement:nth-of-type(even) {
     flex-direction: row-reverse;
-    text-align: right;
-  }
-
-  .person {
-    color: #000000;
   }
 
   .name {
@@ -314,17 +298,13 @@ body {
     font-size: 18px;
   }
 
-  .p-one,
-  .p-two {
+  .paragraph {
     padding: 25px 0;
+    text-justify: auto;
   }
 
-  .p-two {
+  .departement:nth-of-type(even) .person {
     text-align: right;
-  }
-
-  .p-one {
-    text-align: left;
   }
 
   .offer-box {
@@ -358,6 +338,10 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+
   .contact {
     cursor: not-allowed;
   }
